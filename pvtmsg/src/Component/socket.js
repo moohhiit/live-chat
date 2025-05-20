@@ -1,5 +1,5 @@
 import { io } from "socket.io-client";
 
-const socket = io("http://10.176.96.81:8083")
+const socket = io("http://localhost:3001")
 
 export default socket
